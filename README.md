@@ -1,4 +1,4 @@
-# --DATA-STRUCTURES--
+# 📚-DATA-STRUCTURES
 🚀 Engineering Student Exploring Data Structures &amp; Algorithms 
 📚 This repository contains my learning journey in Data Structures. 
 💻 Implementing programs like Stack, Queue, Linked List, Trees, and Sorting Algorithms. 
