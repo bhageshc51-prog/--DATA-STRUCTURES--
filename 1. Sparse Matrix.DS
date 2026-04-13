@@ -1,0 +1,29 @@
+## 1.1 Explain the 3-Tuple (Triplet) Representation of a Sparse Matrix
+
+### Answer
+#### 
+
+A sparse matrix is a matrix in which most of the elements are 0.
+To save memory, only non-zero elements are stored.
+In 3-tuple representation, each non-zero element is stored as (Row, Column, Value).
+The sparse matrix is represented using three columns:
+Row number
+Column number
+Value
+The first row stores:
+Total number of rows
+Total number of columns
+Total number of non-zero elements.
+
+Example
+Matrix:
+0 0 5
+0 8 0
+0 0 3
+
+Triplet form:
+Row Col Value
+3   3   3
+0   2   5
+1   1   8
+2   2   3
