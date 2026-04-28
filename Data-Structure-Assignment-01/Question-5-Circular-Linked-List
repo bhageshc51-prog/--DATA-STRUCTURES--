@@ -1,0 +1,56 @@
+# Question 5: Explain circular linked list and its advantages over singly linked list. Write algorithms for creation and traversal, and discuss practical applications.
+
+## Definition of Circular Linked List
+A circular linked list is a linked list in which the last node points back to the first node.
+
+---
+
+## Diagram of Circular Linked List
+
+10 → 20 → 30  
+↑         ↓  
+←←←←←←←←←  
+
+---
+
+## Characteristics
+- Last node links to first node  
+- No NULL value at end  
+- Continuous traversal possible  
+
+---
+
+## Advantages Over Singly Linked List
+- Can traverse continuously  
+- Better memory utilization  
+- Useful in scheduling tasks  
+- No need to start from first node every time  
+
+---
+
+## Algorithm for Creation
+1. Create first node  
+2. Enter data  
+3. Create remaining nodes  
+4. Link last node to first node  
+
+---
+
+## Algorithm for Traversal
+1. Start from first node  
+2. Display data  
+3. Move to next node  
+4. Stop when first node is reached again  
+
+---
+
+## Applications of Circular Linked List
+- CPU scheduling  
+- Music playlist  
+- Round robin scheduling  
+- Multiplayer games  
+
+---
+
+## Conclusion
+Circular linked lists are useful for applications that require repeated traversal.
