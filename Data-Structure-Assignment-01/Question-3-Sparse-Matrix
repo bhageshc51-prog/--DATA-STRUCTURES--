@@ -1,0 +1,77 @@
+# Question 3: Define sparse matrix and explain its representations. Compare sparse matrix with normal matrix and discuss advantages in terms of space complexity.
+
+## Definition of Sparse Matrix
+A sparse matrix is a matrix in which most of the elements are zero and only a few elements are non-zero.
+
+Example:
+
+0 0 0  
+5 0 0  
+0 0 8  
+
+---
+
+## Characteristics of Sparse Matrix
+- Contains more zero values  
+- Contains fewer non-zero values  
+- Saves memory space  
+- Efficient for large matrices  
+
+---
+
+## Representation of Sparse Matrix
+Sparse matrix is represented using:
+
+- Row number  
+- Column number  
+- Value  
+
+Example table:
+
+| Row | Column | Value |
+|------|---------|--------|
+| 1 | 0 | 5 |
+| 2 | 2 | 8 |
+
+---
+
+## Normal Matrix vs Sparse Matrix
+
+| Normal Matrix | Sparse Matrix |
+|---------------|---------------|
+| Stores all elements | Stores only non-zero elements |
+| More memory required | Less memory required |
+| Less efficient | More efficient |
+
+---
+
+## Advantages of Sparse Matrix
+- Reduces memory usage  
+- Faster processing  
+- Efficient storage  
+- Useful in scientific calculations  
+
+---
+
+## Space Complexity
+Normal Matrix → O(m × n)
+
+Sparse Matrix → O(k)
+
+Where:
+- m = rows  
+- n = columns  
+- k = non-zero elements  
+
+---
+
+## Applications of Sparse Matrix
+- Graph representation  
+- Image processing  
+- Scientific computations  
+- Machine learning  
+
+---
+
+## Conclusion
+Sparse matrices are memory efficient because they store only non-zero elements.
