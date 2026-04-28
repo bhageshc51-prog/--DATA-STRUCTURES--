@@ -1,6 +1,6 @@
 # Question 1: Define data structure and explain types. Discuss time and space complexity with examples. Compare best, worst, and average cases for common operations on arrays and linked lists.
 
-## Definition of Data Structure
+## Definition of Data Structure.
 Data structure is a method of organizing, storing, and managing data efficiently.  
 It helps in performing operations like insertion, deletion, searching, and sorting.
 
