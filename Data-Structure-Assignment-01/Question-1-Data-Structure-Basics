@@ -1,0 +1,95 @@
+# Question 1: Define data structure and explain types. Discuss time and space complexity with examples. Compare best, worst, and average cases for common operations on arrays and linked lists.
+
+## Definition of Data Structure
+Data structure is a method of organizing, storing, and managing data efficiently.  
+It helps in performing operations like insertion, deletion, searching, and sorting.
+
+---
+
+## Types of Data Structure
+
+### 1. Linear Data Structure
+Elements are arranged sequentially.  
+Examples:
+- Array  
+- Linked List  
+- Stack  
+- Queue  
+
+### 2. Non-Linear Data Structure
+Elements are arranged hierarchically.  
+Examples:
+- Tree  
+- Graph  
+
+### 3. Static Data Structure
+Size is fixed.  
+Memory is allocated before execution.  
+
+Example:
+- Array  
+
+### 4. Dynamic Data Structure
+Size changes during execution.  
+
+Example:
+- Linked List  
+
+---
+
+## Time Complexity
+Time complexity measures the time required by an algorithm to execute.
+
+Examples:
+- Linear Search → O(n)  
+- Binary Search → O(log n)  
+- Array Access → O(1)  
+
+---
+
+## Space Complexity
+Space complexity measures the amount of memory used by an algorithm.
+
+Examples:
+- Array storing n elements → O(n)  
+- Using only variables → O(1)  
+
+---
+
+## Best Case
+Minimum execution time required by an algorithm.
+
+Example:
+Searching first element in array.
+
+---
+
+## Worst Case
+Maximum execution time required by an algorithm.
+
+Example:
+Searching last element in array.
+
+---
+
+## Average Case
+Average execution time required by an algorithm.
+
+Example:
+Searching middle element in array.
+
+---
+
+## Comparison of Arrays and Linked Lists
+
+| Operation | Array | Linked List |
+|------------|--------|-------------|
+| Access | O(1) | O(n) |
+| Insertion | O(n) | O(1) |
+| Deletion | O(n) | O(1) |
+| Searching | O(n) | O(n) |
+
+---
+
+## Conclusion
+Data structures help in efficient data storage and processing. Choosing the correct data structure improves performance.
