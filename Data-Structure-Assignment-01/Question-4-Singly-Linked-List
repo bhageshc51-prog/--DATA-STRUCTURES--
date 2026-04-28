@@ -1,0 +1,73 @@
+# Question 4: What is a linear list? Explain singly linked list with diagram and write algorithms for insertion, deletion, and searching operations.
+
+## Definition of Linear List
+A linear list is a collection of elements arranged in sequential order.  
+Each element has a predecessor and successor except the first and last element.
+
+Example:
+
+10 → 20 → 30 → 40
+
+---
+
+## Definition of Singly Linked List
+A singly linked list is a collection of nodes where each node contains:
+
+- Data  
+- Address of next node  
+
+Structure:
+
+struct node {
+   int data;
+   struct node *next;
+};
+
+---
+
+## Diagram of Singly Linked List
+
+10 → 20 → 30 → NULL
+
+---
+
+## Algorithm for Insertion
+1. Create a new node  
+2. Enter data into node  
+3. Adjust links  
+4. Insert node at required position  
+
+---
+
+## Algorithm for Deletion
+1. Find the node to delete  
+2. Change links of previous node  
+3. Delete the node  
+
+---
+
+## Algorithm for Searching
+1. Start from first node  
+2. Compare each node data  
+3. If found, display position  
+4. If not found, display not found  
+
+---
+
+## Advantages of Singly Linked List
+- Dynamic size  
+- Easy insertion  
+- Easy deletion  
+- Efficient memory utilization  
+
+---
+
+## Applications of Singly Linked List
+- Memory management  
+- Polynomial representation  
+- Implementing stacks and queues  
+
+---
+
+## Conclusion
+Singly linked lists are useful when frequent insertion and deletion operations are required.
