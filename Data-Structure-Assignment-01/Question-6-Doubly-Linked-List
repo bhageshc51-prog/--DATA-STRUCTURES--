@@ -1,0 +1,88 @@
+# Question 6: Describe doubly linked list with structure. Write detailed algorithms for insertion and deletion at different positions. Compare singly, circular, and doubly linked lists based on memory and operations.
+
+## Definition of Doubly Linked List
+A doubly linked list is a linked list in which each node contains:
+
+- Previous pointer  
+- Data  
+- Next pointer  
+
+---
+
+## Structure of Doubly Linked List
+
+struct node {
+   struct node *prev;
+   int data;
+   struct node *next;
+};
+
+---
+
+## Diagram of Doubly Linked List
+
+NULL ← 10 ⇄ 20 ⇄ 30 → NULL
+
+---
+
+## Insertion at Beginning
+1. Create a new node  
+2. Enter data  
+3. Link new node to first node  
+4. Update first node pointer  
+
+---
+
+## Insertion at Middle
+1. Find the position  
+2. Create new node  
+3. Adjust previous and next links  
+
+---
+
+## Insertion at End
+1. Move to last node  
+2. Create new node  
+3. Link last node with new node  
+
+---
+
+## Deletion at Beginning
+1. Remove first node  
+2. Update head pointer  
+
+---
+
+## Deletion at Middle
+1. Find the node  
+2. Adjust links  
+3. Delete the node  
+
+---
+
+## Deletion at End
+1. Move to last node  
+2. Delete last node  
+
+---
+
+## Comparison of Linked Lists
+
+| Feature | Singly Linked List | Circular Linked List | Doubly Linked List |
+|----------|--------------------|----------------------|--------------------|
+| Memory | Less | Less | More |
+| Traversal | One direction | Circular | Two directions |
+| Insertion | Easy | Moderate | Easy |
+| Deletion | Moderate | Moderate | Easy |
+
+---
+
+## Applications of Doubly Linked List
+- Browser history  
+- Undo/Redo operations  
+- Music playlists  
+
+---
+
+## Conclusion
+Doubly linked lists allow traversal in both directions and make insertion/deletion easier.
