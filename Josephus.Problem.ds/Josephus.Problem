@@ -1,0 +1,27 @@
+# Josephus Problem
+
+## Definition
+
+The Josephus Problem is a famous problem in Data Structure and Algorithms.
+
+## Algorithm
+
+1. Start from the first person.
+2. Count k persons.
+3. Remove the k-th person.
+4. Continue until one person remains.
+
+## Example
+
+If n = 7 and k = 3  
+Safe Position = 4
+
+## Applications
+
+- CPU Scheduling
+- Circular Linked List
+- Game Simulation
+
+## Conclusion
+
+Used to understand recursion and circular linked lists.
