@@ -29,7 +29,7 @@ Memory is allocated before execution.
 Example:
 - Array  
 
-### 4. Dynamic Data Structure
+### 4. Dynamic Data Structure.
 Size changes during execution.  
 
 Example:
