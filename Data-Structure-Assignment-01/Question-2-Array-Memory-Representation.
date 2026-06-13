@@ -83,7 +83,7 @@ Searching middle element in array.
 ## Comparison of Arrays and Linked Lists
 
 | Operation | Array | Linked List |
-|------------|--------|-------------|
+|-------------|--------|-------------|
 | Access | O(1) | O(n) |
 | Insertion | O(n) | O(1) |
 | Deletion | O(n) | O(1) |
