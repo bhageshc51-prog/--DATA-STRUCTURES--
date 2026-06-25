@@ -20,7 +20,7 @@
 5. The **first row** contains:  
    - Total number of rows  
    - Total number of columns  
-   - Total number of non-zero elements  
+   - Total number of non-zero elements.
 6. This method helps to **reduce memory usage and improve efficiency**.
 
 </span>
