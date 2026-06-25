@@ -40,7 +40,7 @@ Algorithm:
 3. Initialize **k = 1**  
 4. Traverse each element of the matrix  
 5. If the element is **not equal to 0**  
-6. Store **row index, column index, value** in sparse matrix  
+6. Store **row index, column index, value** in sparse matrix. 
 7. Increment **k**  
 8. Store **m, n, and number of non-zero elements** in the first row  
 9. Stop  
