@@ -7,7 +7,7 @@
 
 ### <span style="color:#00aa00">Answer</span>
 
-<span style="color:#00aa00">
+<span style="color:#00aa00"
 
 1. A **Sparse Matrix** is a matrix in which most of the elements are **0**.  
 2. Instead of storing all elements, only **non-zero elements** are stored.  
