@@ -17,7 +17,7 @@ Example:
 - Saves memory space  
 - Efficient for large matrices  
 
----
+
 
 ## Representation of Sparse Matrix
 Sparse matrix is represented using:
